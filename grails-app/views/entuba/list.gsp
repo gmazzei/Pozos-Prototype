@@ -48,7 +48,7 @@
 					
 						<td>${fieldValue(bean: entubaInstance, field: "DIAM")}</td>
 					
-						<td>${fieldValue(bean: entubaInstance, field: "FECHA")}</td>
+						<td><g:formatDate date="${entubaInstance.FECHA}" /></td>
 					
 						<td>${fieldValue(bean: entubaInstance, field: "GRADO_COD_ID")}</td>
 					

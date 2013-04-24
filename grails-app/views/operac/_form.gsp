@@ -39,7 +39,7 @@
 		<g:message code="operac.FECHA_FIN.label" default="FECHAFIN" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA_FIN" precision="day"  value="${operacInstance?.FECHA_FIN}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: operacInstance, field: 'FECHA_INI', 'error')} required">
@@ -47,7 +47,7 @@
 		<g:message code="operac.FECHA_INI.label" default="FECHAINI" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA_INI" precision="day"  value="${operacInstance?.FECHA_INI}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: operacInstance, field: 'MET_EXTRAC', 'error')} required">

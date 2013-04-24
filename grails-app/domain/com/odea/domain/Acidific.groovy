@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 class Acidific {
 	
@@ -11,7 +10,7 @@ class Acidific {
 	Integer POZO_ID
 	Integer OPERAC_ID
 	Integer NRO
-	Timestamp FECHA
+	Date FECHA
 	Integer TIPO_COD_ID
 	Double DESDE
 	Double HASTA

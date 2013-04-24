@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 
 
@@ -12,7 +11,7 @@ class Entuba {
 	Integer POZO_ID
 	Integer OPERAC_ID
 	String NRO
-	Timestamp FECHA
+	Date FECHA
 	String TIPO
 	Double DIAM
 	Integer GRADO_COD_ID

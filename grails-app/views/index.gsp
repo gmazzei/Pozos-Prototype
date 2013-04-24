@@ -25,11 +25,11 @@
 		        <div class="col-r">
 		            <div class="col-r-in">
 		                <h2>El Ejemplo</h2>
-						<h2>Available Controllers:</h2>
+						<h2>ABMs disponibles (Controllers):</h2>
 						<p>
 							<ul>
-								<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-									<li><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
+								<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.name } }">
+									<li><g:link controller="${c.logicalPropertyName}">${c.name}</g:link></li>
 								</g:each>
 							</ul>
 			                <hr class="noscreen" />

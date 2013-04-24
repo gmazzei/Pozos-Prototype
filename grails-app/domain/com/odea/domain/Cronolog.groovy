@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 class Cronolog {
 	
@@ -13,7 +12,7 @@ class Cronolog {
 	String ACTIVIDAD
 	Integer ACTIVIDAD_ID
 	Integer NRO_OPERAC
-	Timestamp FECHA_HORA
+	Date FECHA_HORA
 
     static constraints = {
 		cronolog_ID nullable:false, unique:true

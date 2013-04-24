@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 class Fractura {
 	
@@ -12,7 +11,7 @@ class Fractura {
 	Integer OPERAC_ID
 	Integer NRO
 	Integer TIPO_COD
-	Timestamp FECHA
+	Date FECHA
 	Double DESDE
 	Double HASTA
 	Integer COMPA_COD_ID

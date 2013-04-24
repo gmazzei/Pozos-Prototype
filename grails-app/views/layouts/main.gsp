@@ -26,7 +26,6 @@
 		    <div class="page">
 		        <div class="col-r">
 		            <div class="col-r-in">
-		                <h2>El Ejemplo</h2>
 		                <p>
 					        <div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
 					        <div class="footer" role="contentinfo"></div>

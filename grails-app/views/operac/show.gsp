@@ -63,7 +63,7 @@
 				<li class="fieldcontain">
 					<span id="FECHA_FIN-label" class="property-label"><g:message code="operac.FECHA_FIN.label" default="FECHAFIN" /></span>
 					
-						<span class="property-value" aria-labelledby="FECHA_FIN-label"><g:fieldValue bean="${operacInstance}" field="FECHA_FIN"/></span>
+						<span class="property-value" aria-labelledby="FECHA_FIN-label"><g:formatDate date="${operacInstance?.FECHA_FIN}" /></span>
 					
 				</li>
 				</g:if>
@@ -72,7 +72,7 @@
 				<li class="fieldcontain">
 					<span id="FECHA_INI-label" class="property-label"><g:message code="operac.FECHA_INI.label" default="FECHAINI" /></span>
 					
-						<span class="property-value" aria-labelledby="FECHA_INI-label"><g:fieldValue bean="${operacInstance}" field="FECHA_INI"/></span>
+						<span class="property-value" aria-labelledby="FECHA_INI-label"><g:formatDate date="${operacInstance?.FECHA_INI}" /></span>
 					
 				</li>
 				</g:if>

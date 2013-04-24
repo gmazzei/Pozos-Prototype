@@ -31,7 +31,7 @@
 		<g:message code="entuba.FECHA.label" default="FECHA" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA" precision="day"  value="${entubaInstance?.FECHA}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: entubaInstance, field: 'GRADO_COD_ID', 'error')} required">

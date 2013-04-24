@@ -63,7 +63,7 @@
 				<li class="fieldcontain">
 					<span id="FECHA-label" class="property-label"><g:message code="acidific.FECHA.label" default="FECHA" /></span>
 					
-						<span class="property-value" aria-labelledby="FECHA-label"><g:fieldValue bean="${acidificInstance}" field="FECHA"/></span>
+						<span class="property-value" aria-labelledby="FECHA-label"><g:formatDate date="${acidificInstance?.FECHA}" /></span>
 					
 				</li>
 				</g:if>

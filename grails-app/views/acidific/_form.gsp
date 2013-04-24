@@ -39,7 +39,7 @@
 		<g:message code="acidific.FECHA.label" default="FECHA" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA" precision="day"  value="${acidificInstance?.FECHA}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: acidificInstance, field: 'HASTA', 'error')} required">

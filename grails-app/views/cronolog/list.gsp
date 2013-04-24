@@ -48,7 +48,7 @@
 					
 						<td>${fieldValue(bean: cronologInstance, field: "ACTIVIDAD_ID")}</td>
 					
-						<td>${fieldValue(bean: cronologInstance, field: "FECHA_HORA")}</td>
+						<td><g:formatDate date="${cronologInstance.FECHA_HORA}" /></td>
 					
 						<td>${fieldValue(bean: cronologInstance, field: "NRO_OPERAC")}</td>
 					

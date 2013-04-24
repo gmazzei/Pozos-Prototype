@@ -54,7 +54,7 @@
 				<li class="fieldcontain">
 					<span id="FECHA_HORA-label" class="property-label"><g:message code="cronolog.FECHA_HORA.label" default="FECHAHORA" /></span>
 					
-						<span class="property-value" aria-labelledby="FECHA_HORA-label"><g:fieldValue bean="${cronologInstance}" field="FECHA_HORA"/></span>
+						<span class="property-value" aria-labelledby="FECHA_HORA-label"><g:formatDate date="${cronologInstance?.FECHA_HORA}" /></span>
 					
 				</li>
 				</g:if>

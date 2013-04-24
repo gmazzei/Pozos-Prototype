@@ -50,7 +50,7 @@
 					
 						<td>${fieldValue(bean: acidificInstance, field: "DESDE")}</td>
 					
-						<td>${fieldValue(bean: acidificInstance, field: "FECHA")}</td>
+						<td><g:formatDate date="${acidificInstance.FECHA}" /></td>
 					
 						<td>${fieldValue(bean: acidificInstance, field: "HASTA")}</td>
 					

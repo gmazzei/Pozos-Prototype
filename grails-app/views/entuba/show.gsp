@@ -54,7 +54,7 @@
 				<li class="fieldcontain">
 					<span id="FECHA-label" class="property-label"><g:message code="entuba.FECHA.label" default="FECHA" /></span>
 					
-						<span class="property-value" aria-labelledby="FECHA-label"><g:fieldValue bean="${entubaInstance}" field="FECHA"/></span>
+						<span class="property-value" aria-labelledby="FECHA-label"><g:formatDate date="${entubaInstance?.FECHA}" /></span>
 					
 				</li>
 				</g:if>

@@ -47,7 +47,7 @@
 		<g:message code="punzado.FECHA.label" default="FECHA" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA" precision="day"  value="${punzadoInstance?.FECHA}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: punzadoInstance, field: 'HASTA', 'error')} required">

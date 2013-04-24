@@ -72,7 +72,7 @@
 				<li class="fieldcontain">
 					<span id="FEC_FIN-label" class="property-label"><g:message code="perfora.FEC_FIN.label" default="FECFIN" /></span>
 					
-						<span class="property-value" aria-labelledby="FEC_FIN-label"><g:fieldValue bean="${perforaInstance}" field="FEC_FIN"/></span>
+						<span class="property-value" aria-labelledby="FEC_FIN-label"><g:formatDate date="${perforaInstance?.FEC_FIN}" /></span>
 					
 				</li>
 				</g:if>
@@ -81,7 +81,7 @@
 				<li class="fieldcontain">
 					<span id="FEC_INI-label" class="property-label"><g:message code="perfora.FEC_INI.label" default="FECINI" /></span>
 					
-						<span class="property-value" aria-labelledby="FEC_INI-label"><g:fieldValue bean="${perforaInstance}" field="FEC_INI"/></span>
+						<span class="property-value" aria-labelledby="FEC_INI-label"><g:formatDate date="${perforaInstance?.FEC_INI}" /></span>
 					
 				</li>
 				</g:if>

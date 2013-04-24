@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 class Punzado {
 	
@@ -11,7 +10,7 @@ class Punzado {
 	Integer POZO_ID
 	Integer OPERAC_ID
 	Double NRO_PUNZ
-	Timestamp FECHA
+	Date FECHA
 	String TIPO
 	Double DESDE
 	Double HASTA

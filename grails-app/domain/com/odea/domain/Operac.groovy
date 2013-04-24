@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 class Operac {
 	
@@ -10,8 +9,8 @@ class Operac {
 	static belongsTo = [pozo : Pozo]
 	Double NRO
 	String TIPO
-	Timestamp FECHA_INI
-	Timestamp FECHA_FIN
+	Date FECHA_INI
+	Date FECHA_FIN
 	Integer COMPA_COD_ID
 	Integer MOTIVO_COD_ID
 	Double PROF_FON

@@ -47,7 +47,7 @@
 		<g:message code="perfora.FEC_FIN.label" default="FECFIN" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FEC_FIN" precision="day"  value="${perforaInstance?.FEC_FIN}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: perforaInstance, field: 'FEC_INI', 'error')} required">
@@ -55,7 +55,7 @@
 		<g:message code="perfora.FEC_INI.label" default="FECINI" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FEC_INI" precision="day"  value="${perforaInstance?.FEC_INI}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: perforaInstance, field: 'MUSTREO_COD_ID', 'error')} required">

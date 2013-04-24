@@ -52,7 +52,7 @@
 					
 						<td>${fieldValue(bean: perforaInstance, field: "EQUIP_COD_ID")}</td>
 					
-						<td>${fieldValue(bean: perforaInstance, field: "FEC_FIN")}</td>
+						<td><g:formatDate date="${perforaInstance.FEC_FIN}" /></td>
 					
 					</tr>
 				</g:each>

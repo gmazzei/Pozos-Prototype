@@ -52,7 +52,7 @@
 					
 						<td>${fieldValue(bean: punzadoInstance, field: "DESDE")}</td>
 					
-						<td>${fieldValue(bean: punzadoInstance, field: "FECHA")}</td>
+						<td><g:formatDate date="${punzadoInstance.FECHA}" /></td>
 					
 					</tr>
 				</g:each>

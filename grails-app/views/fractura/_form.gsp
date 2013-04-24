@@ -63,7 +63,7 @@
 		<g:message code="fractura.FECHA.label" default="FECHA" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA" precision="day"  value="${fracturaInstance?.FECHA}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: fracturaInstance, field: 'GRAD_FRAC', 'error')} required">

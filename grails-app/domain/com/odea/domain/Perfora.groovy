@@ -1,6 +1,5 @@
 package com.odea.domain
 
-import java.sql.Timestamp
 
 class Perfora {
 	
@@ -10,8 +9,8 @@ class Perfora {
 	Integer perfora_ID
 	Integer POZO_ID
 	Integer OPERAC_ID
-	Timestamp FEC_INI
-	Timestamp FEC_FIN
+	Date FEC_INI
+	Date FEC_FIN
 	Integer COMPA_COD_ID
 	Integer EQUIP_COD_ID
 	Double DIAMETRO

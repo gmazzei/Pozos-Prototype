@@ -1,6 +1,5 @@
 package com.odea.domain
 
 class YacimienController {
-
-	def scaffold = Yacimien
+    static scaffold = true
 }

@@ -31,7 +31,7 @@
 		<g:message code="cronolog.FECHA_HORA.label" default="FECHAHORA" />
 		<span class="required-indicator">*</span>
 	</label>
-	
+	<g:datePicker name="FECHA_HORA" precision="day"  value="${cronologInstance?.FECHA_HORA}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: cronologInstance, field: 'NRO_OPERAC', 'error')} required">

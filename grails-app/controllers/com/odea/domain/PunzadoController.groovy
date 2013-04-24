@@ -1,7 +1,5 @@
 package com.odea.domain
 
 class PunzadoController {
-
-	def scaffold = Punzado
-	
+    static scaffold = true
 }

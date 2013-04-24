@@ -50,9 +50,9 @@
 					
 						<td>${fieldValue(bean: operacInstance, field: "ESDES_COD_ID")}</td>
 					
-						<td>${fieldValue(bean: operacInstance, field: "FECHA_FIN")}</td>
+						<td><g:formatDate date="${operacInstance.FECHA_FIN}" /></td>
 					
-						<td>${fieldValue(bean: operacInstance, field: "FECHA_INI")}</td>
+						<td><g:formatDate date="${operacInstance.FECHA_INI}" /></td>
 					
 					</tr>
 				</g:each>
